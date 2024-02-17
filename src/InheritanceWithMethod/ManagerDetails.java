@@ -2,7 +2,7 @@ package InheritanceWithMethod;
 
 public class ManagerDetails extends EmployeeDetails {
     private String salary;
-    private String leadership;
+    public String leadership;
     public int experience;
 
     public ManagerDetails(String employeeName, String employeeId,
